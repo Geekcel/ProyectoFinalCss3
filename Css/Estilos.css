@@ -1,0 +1,230 @@
+body{
+    background: black;
+    font-family: "Dancing Script", cursive;
+    
+    
+}
+
+.desktop{
+    width:900px;
+    margin: 0 auto;
+    animation: 1s slidein;
+    
+    
+       
+}
+
+@-webkit-keyframes slidein{
+    0%{
+        margin-top: 150%
+    }
+    
+    60%{
+        margin-top: -5%
+    }
+    
+    100%{
+        margin-top: 0%
+    }
+}
+
+.Cabecera{
+    display:flex;
+    height: 80px;
+    
+    
+}
+
+.titulo{
+    color: white;
+    background-color: #5B7989;
+    text-shadow: 2px 2px 2px #02010A;
+    font-size: 30px;
+    border-radius: 10px 0 0;
+    display:flex;
+    width: 900px;
+    
+}
+
+.titulo p{
+    margin-top: 25px;
+}
+
+.navbar{
+    float: right;
+    background-color: #5B7989;
+    width:330px;
+    border-radius: 0px 10px 0px 0px;
+    word-spacing: 10px;
+    width: 900px;
+
+}
+
+.navbar a{
+    text-decoration:none;
+    color: white;
+    position:relative;
+    top: 25px;
+    left: 150px;
+    font-size: 25px;
+       
+}
+
+.imagencentral{
+    display: flex;
+
+}
+
+.contenedor1{
+    color: white;
+    background-color: #82C3A6;
+    margin: 0 auto;
+    width: 900px;
+    height: 300px
+    
+}
+
+.contenedor1 img{
+    width: 50%;
+    position: relative;
+    left: 220px;
+    top: 25px;
+    box-shadow: 2px 2px 2px 2px #02010A;
+}
+
+.imgsecundarias{
+    background-color: #D5C75F;
+    border: 1px;
+    display: flex;
+    margin: 0 auto;
+    height: 300px;
+}
+
+#imagenderecha img{
+    width: 400px;
+    position: relative;
+    right: 175px;
+    bottom: 10px;
+    box-shadow: 2px 2px 2px 2px #02010A;
+    transition: 2s;
+}
+
+#imagenderecha img:hover{
+    -webkit-transform: rotate(10deg);
+    box-shadow: 2px 2px 2px  #82C3A6
+}
+
+#imagenderecha a{
+    position: relative;
+    top:40px;
+    left: 200px;
+    text-decoration: underline;
+    color: white;
+    
+}
+
+#imagenizquierda img{
+    width: 390px;
+    height: 230px;
+    position: relative;
+    right: 190px;
+    bottom: 10px;
+    box-shadow: 2px 2px 2px 2px #02010A;
+    transition: translate 4s;
+}
+
+#imagenizquierda img:hover{
+    -webkit-transform:translate(20px, -5px);
+    box-shadow: 2px 2px 2px #82C3A6
+}
+
+#imagenizquierda a{
+    position: relative;
+    top: 40px;
+    left: 200px;
+    text-decoration: underline;
+    color: white;
+    
+}
+
+footer{
+    width: 900px;
+    height: 200px; 
+    margin: 0 auto;
+    display: flex;
+    background-color: #C6D5C5;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.infocontacto{
+    width: 150px;
+    margin-left: 20px;
+    
+}
+
+.infocontacto h2 {
+    margin-bottom: 5px;
+}
+
+.infocontacto a{
+    color: black;
+    transition: color 0.1s;
+}
+
+.infocontacto a:hover{
+    color: red;
+}
+
+#direccion{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#telefono{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.terminos{
+    width: 150px;
+    margin-left: 50px;
+}
+
+.terminos h2 {
+    margin-bottom: 5px;
+}
+
+.terminos p{
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.redessociales{
+    width: 220px;
+    margin-left: 40px;
+}
+
+
+#twitter, #instagram, #facebook{
+    width: 35px;
+    position: relative;
+    right: 5px;
+    
+}
+
+#twittertxt, #instagramtxt, #facebooktxt {
+    position: relative;
+    bottom: 10px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.1s;
+}
+
+#facebooktxt:hover, #twittertxt:hover, #instagramtxt:hover {
+    color: red;}
+
+.derechos{
+    width: 180px;
+    margin-left: 90px;
+}
